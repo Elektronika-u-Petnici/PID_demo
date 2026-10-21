@@ -3707,6 +3707,204 @@
 			)
 		)
 	)
+	(footprint "PID_lib:N20_motor"
+		(layer "F.Cu")
+		(uuid "4d0daca3-7859-4f05-9047-4f328515a27e")
+		(at 150 65)
+		(descr "Potentiometer, vertical, bottom-adjust, single slot, Bourns 3314R-1, http://www.bourns.com/docs/Product-Datasheets/3314.pdf")
+		(tags "Potentiometer vertical hole Bourns 3314R-1")
+		(property "Reference" "M1"
+			(at 0 -4.65 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "cce8ca51-5974-423d-86ce-3f02aafe44d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Motor_DC"
+			(at 0 4.65 0)
+			(layer "F.Fab")
+			(uuid "fe6151cb-e301-44c3-8bf9-b350dc1cc1e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65fe9c06-9ff9-440a-9f2b-0b560f6e9c14")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "DC Motor"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4118fb2d-396b-4c03-b4ef-8d740e233c43")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "PinHeader*P2.54mm* TerminalBlock*")
+		(path "/6fa30cf5-6cec-42b2-97a9-c587e0c475aa/c18d6e93-049f-42fc-9a9b-4e4212f5218b")
+		(sheetname "/Charge pump/")
+		(sheetfile "./power_supply.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.24 -2.37)
+			(end 0.24 -2.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5cafcc5d-30c0-4fc8-8e83-20603beed886")
+		)
+		(fp_rect
+			(start -6 -5)
+			(end 6 5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "7cd1e5ea-3aff-4372-9580-b08ff44f2058")
+		)
+		(fp_rect
+			(start -6.75 -5.5)
+			(end 6.75 5.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "4699cdb0-a953-48e1-8594-c414bdd91899")
+		)
+		(fp_rect
+			(start -5.75 -2.75)
+			(end 5.75 2.75)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "be46b207-618a-4418-ad42-daa175e4d6b6")
+		)
+		(fp_line
+			(start -2.5 -2.25)
+			(end -2.5 2.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4b591b59-5186-4465-aa3f-5e28202e6105")
+		)
+		(fp_line
+			(start -2.5 2.25)
+			(end 2.5 2.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f2d888b1-27ac-4fc4-a52f-8e6a60d2fd93")
+		)
+		(fp_line
+			(start 2.5 -2.25)
+			(end -2.5 -2.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "37bc3adf-c785-44f7-aac5-d61186e73751")
+		)
+		(fp_line
+			(start 2.5 2.25)
+			(end 2.5 -2.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9d1d1a54-430b-4750-b3bc-278fa7c548c2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.7 0)
+			(layer "F.Fab")
+			(uuid "46b00d7b-af14-4a88-817f-71cefa462024")
+			(effects
+				(font
+					(size 0.63 0.63)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "MH" thru_hole circle
+			(at -4.4 0)
+			(size 2 2)
+			(drill 2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "2ad7b17b-7ca0-4021-a476-c3f8cc859d39")
+		)
+		(pad "MH" thru_hole circle
+			(at 0 0)
+			(size 5 5)
+			(drill 5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "528581cf-df45-4174-b988-135dd78f2ac1")
+		)
+		(pad "MH" thru_hole circle
+			(at 4.4 0)
+			(size 2 2)
+			(drill 2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "1c3cee00-84e2-4844-869f-286db11b2f66")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/PID_lib.pretty/N20 Mini Micro Metall Gear Motor.step"
+			(offset
+				(xyz 0 0 -11.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 90 -0)
+			)
+		)
+	)
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
 		(uuid "4d55a579-c723-4d02-8e42-cce11fe72e50")

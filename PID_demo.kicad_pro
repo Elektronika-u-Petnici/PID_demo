@@ -503,7 +503,8 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "PEKG"
+      "PEKG",
+      "PID_lib"
     ],
     "pinned_symbol_libs": [
       "PEKG_lib"
@@ -732,7 +733,7 @@
         "uuid": "6b6ace37-3aeb-4177-8f53-de4683f890d9"
       }
     ],
-    "used_designators": "RV1-6,Q1-6,Q9,Q11,Q15-16,SW1,#SYM1,BT1,H1-4,#PWR1-79,#PWR81-82,#PWR111-114,#PWR117-136,C1-41,C44-45,C47-48,C55-59,C61-64,C66-72,U1-8,D1-11,D14-19,J1-2,JP1-6,R1-35,R39,R41-54,TP1-17,#GND1-42",
+    "used_designators": "RV1-6,Q1-6,Q9,Q11,Q15-16,SW1,#SYM1,BT1,H1-4,#PWR1-79,#PWR81-82,#PWR111-114,#PWR117-136,C1-41,C44-45,C47-48,C55-59,C61-64,C66-72,U1-8,D1-11,D14-19,J1-2,JP1-6,M1,R1-35,R39,R41-54,TP1-17,#GND1-42",
     "variants": []
   },
   "sheets": [
