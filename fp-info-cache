@@ -1,4 +1,4 @@
-3526830847980
+21257159520611
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -72575,20 +72575,90 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
-PID_lib
-M3_hole_with_spacer
-Mounting Hole 3.2mm, M3, ISO14580
-mounting hole 3.2mm m3 iso14580
+PEKG
+DPDT_bigger
+C&K sub miniature slide switch, JS series, DPDT, right angle, http://www.ckswitches.com/media/1422/js.pdf
+switch DPDT
 0
-3
-1
-PID_lib
-front_plate_pot
-Potentiometer, vertical, bottom-adjust, single slot, Bourns 3314R-1, http://www.bourns.com/docs/Product-Datasheets/3314.pdf
-Potentiometer vertical hole Bourns 3314R-1
+6
+6
+PEKG
+Jack_3.5mm_4pole
+TRS 3.5mm, horizontal, through-hole, https://www.cuidevices.com/product/resource/pdf/sj1-352xn.pdf
+TRS audio jack stereo horizontal
 0
+6
 4
-4
+PEKG
+Jack_3.5mm_CUI_SJ1-3525N_Horizontal
+TRS 3.5mm, horizontal, through-hole, https://www.cuidevices.com/product/resource/pdf/sj1-352xn.pdf
+TRS audio jack stereo horizontal
+0
+5
+5
+PEKG
+MG_battery_holder
+2xAA cell battery holder, Keystone P/N 2462, https://www.keyelco.com/product-pdf.cfm?p=1027
+AA battery cell holder
+0
+2
+2
+PEKG
+MODULE_ESP32-S3-ZERO
+
+
+0
+18
+18
+PEKG
+MODULE_ESP32-S3-ZERO_SMD
+
+
+0
+18
+18
+PEKG
+Micro_SD_Card_Module
+Through hole straight pin header, 1x06, 2.54mm pitch, single row
+Through hole pin header THT 1x06 2.54mm single row
+0
+6
+6
+PEKG
+Micro_SD_Card_Module_UpsideDown
+Through hole straight pin header, 1x06, 2.54mm pitch, single row
+Through hole pin header THT 1x06 2.54mm single row
+0
+6
+6
+PEKG
+Micro_SD_Card_Module_UpsideDown_SMD
+Through hole straight pin header, 1x06, 2.54mm pitch, single row
+Through hole pin header THT 1x06 2.54mm single row
+0
+6
+6
+PEKG
+SW_EG1271
+
+
+0
+6
+6
+PEKG
+SW_EG1271_SMD
+
+
+0
+6
+6
+PEKG
+battery_holder
+
+
+0
+2
+2
 Package_BGA
 Alliance_TFBGA-36_6x8mm_Layout6x8_P0.75mm
 Alliance TFBGA-36, NSMD, 6.0x8.0mm, 36 Ball, 6x8 Layout, 0.75mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1008_Mar_2023V1.2.pdf#page=13
