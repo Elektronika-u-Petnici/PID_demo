@@ -25354,6 +25354,19 @@
 		(layer "Edge.Cuts")
 		(uuid "42705b24-9291-4840-a979-60860bb1147f")
 	)
+	(gr_text "naglasiti P I D komponente i na silkscreen-u na poledjini"
+		(at 188 122 0)
+		(layer "B.Cu")
+		(uuid "315bffa8-5ede-4ee5-950b-e8fea4e524ae")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "BAT-"
 		(at 126.427354 129.093792 180)
 		(layer "F.SilkS")
