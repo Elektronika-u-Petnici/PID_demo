@@ -272,7 +272,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 44.45) (xy 170.18 44.45)
+			(xy 78.74 62.23) (xy 77.47 62.23)
 		)
 		(stroke
 			(width 0)
@@ -282,7 +282,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 54.61) (xy 154.94 54.61)
+			(xy 59.69 72.39) (xy 62.23 72.39)
 		)
 		(stroke
 			(width 0)
@@ -292,7 +292,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 44.45) (xy 154.94 44.45)
+			(xy 60.96 62.23) (xy 62.23 62.23)
 		)
 		(stroke
 			(width 0)
@@ -302,7 +302,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 153.67 44.45 90)
+		(at 60.96 62.23 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -313,7 +313,7 @@
 		(fields_autoplaced yes)
 		(uuid "02e00a49-71c0-4cf3-8286-5dcc01cf9e06")
 		(property "Reference" "#PWR09"
-			(at 157.48 44.45 0)
+			(at 64.77 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -324,7 +324,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 149.86 44.4501 90)
+			(at 57.15 62.2301 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -335,7 +335,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 44.45 0)
+			(at 60.96 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -346,7 +346,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 44.45 0)
+			(at 60.96 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -357,7 +357,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 153.67 44.45 0)
+			(at 60.96 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -381,7 +381,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
-		(at 152.4 54.61 270)
+		(at 59.69 72.39 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -392,7 +392,7 @@
 		(fields_autoplaced yes)
 		(uuid "558a5e5a-01b8-41b5-b32d-03fdf8720e24")
 		(property "Reference" "#GND01"
-			(at 149.86 54.61 0)
+			(at 57.15 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -403,7 +403,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 154.94 54.61 0)
+			(at 62.23 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -414,7 +414,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 54.61 0)
+			(at 59.69 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -425,7 +425,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 54.61 0)
+			(at 59.69 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -436,7 +436,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 54.61 0)
+			(at 59.69 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -460,7 +460,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 171.45 44.45 270)
+		(at 78.74 62.23 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -470,7 +470,7 @@
 		(dnp no)
 		(uuid "6bf3031e-713d-4e2a-8634-0d64c4b618f8")
 		(property "Reference" "#PWR010"
-			(at 167.64 44.45 0)
+			(at 74.93 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -481,7 +481,7 @@
 			)
 		)
 		(property "Value" "-5V"
-			(at 175.26 44.45 90)
+			(at 82.55 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -492,7 +492,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 44.45 0)
+			(at 78.74 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -503,7 +503,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 44.45 0)
+			(at 78.74 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -514,7 +514,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 171.45 44.45 0)
+			(at 78.74 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -593,7 +593,7 @@
 		)
 	)
 	(sheet
-		(at 154.94 41.91)
+		(at 62.23 59.69)
 		(size 15.24 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -609,7 +609,7 @@
 		)
 		(uuid "6fa30cf5-6cec-42b2-97a9-c587e0c475aa")
 		(property "Sheetname" "Charge pump"
-			(at 154.94 41.1984 0)
+			(at 62.23 58.9784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -620,7 +620,7 @@
 			)
 		)
 		(property "Sheetfile" "./power_supply.kicad_sch"
-			(at 154.94 57.7346 0)
+			(at 62.23 75.5146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -631,7 +631,7 @@
 			)
 		)
 		(pin "GND" input
-			(at 154.94 54.61 180)
+			(at 62.23 72.39 180)
 			(uuid "d529e92b-43b8-4b40-8ace-dfc932566043")
 			(effects
 				(font
@@ -641,7 +641,7 @@
 			)
 		)
 		(pin "-5V" output
-			(at 170.18 44.45 0)
+			(at 77.47 62.23 0)
 			(uuid "91ad7353-2bed-4733-b983-3ee89c2c90f1")
 			(effects
 				(font
@@ -651,7 +651,7 @@
 			)
 		)
 		(pin "+5V" input
-			(at 154.94 44.45 180)
+			(at 62.23 62.23 180)
 			(uuid "f85ae900-f583-4af7-9dfa-8a77b3156cc1")
 			(effects
 				(font

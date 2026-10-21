@@ -2314,18 +2314,6 @@
 		)
 	)
 	(rectangle
-		(start 238.76 12.7)
-		(end 330.2 86.36)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "3e1a11b3-25bd-45d4-97b5-e01dccdacb75")
-	)
-	(rectangle
 		(start 12.7 12.7)
 		(end 147.32 86.36)
 		(stroke
@@ -2384,7 +2372,7 @@
 		)
 		(uuid "4cd922f3-be4a-4c53-8105-70181539beaa")
 	)
-	(text "CLK generation\n"
+	(text "PWM generation"
 		(exclude_from_sim no)
 		(at 13.97 19.304 0)
 		(effects
@@ -2407,12 +2395,6 @@
 		(uuid "60945ca0-909c-4376-b513-1a8db1873d4c")
 	)
 	(junction
-		(at 88.9 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04c1b20f-1cac-4b45-a47d-d373b3fe9cba")
-	)
-	(junction
 		(at 31.75 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2431,10 +2413,10 @@
 		(uuid "40538f58-9113-4fa4-86fd-683e4b713f4a")
 	)
 	(junction
-		(at 160.02 140.97)
+		(at 132.08 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "532779b0-c589-4f31-88d7-d42c462d82c3")
+		(uuid "54496748-7273-46f8-9396-3260d2d63e66")
 	)
 	(junction
 		(at 118.11 31.75)
@@ -2471,6 +2453,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b08bc4e-e4dc-48e5-8984-b048e1f634fe")
+	)
+	(junction
+		(at 88.9 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9db11e2c-ad28-43b9-9687-dbb46889049d")
 	)
 	(junction
 		(at 187.96 39.37)
@@ -2646,7 +2634,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 125.73) (xy 160.02 140.97)
+			(xy 132.08 132.08) (xy 132.08 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2716,7 +2704,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 120.65) (xy 152.4 120.65)
+			(xy 121.92 127) (xy 124.46 127)
 		)
 		(stroke
 			(width 0)
@@ -2736,7 +2724,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 156.21) (xy 152.4 156.21)
+			(xy 121.92 156.21) (xy 124.46 156.21)
 		)
 		(stroke
 			(width 0)
@@ -2826,7 +2814,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 107.95) (xy 38.1 130.81)
+			(xy 38.1 128.27) (xy 38.1 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2836,7 +2824,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 149.86) (xy 38.1 166.37)
+			(xy 38.1 149.86) (xy 38.1 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2896,7 +2884,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 125.73) (xy 88.9 140.97)
+			(xy 88.9 132.08) (xy 88.9 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2906,7 +2894,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 120.65) (xy 99.06 120.65)
+			(xy 96.52 127) (xy 99.06 127)
 		)
 		(stroke
 			(width 0)
@@ -3056,7 +3044,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 111.76) (xy 88.9 115.57)
+			(xy 88.9 118.11) (xy 88.9 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3146,7 +3134,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 140.97) (xy 160.02 151.13)
+			(xy 132.08 140.97) (xy 132.08 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3176,7 +3164,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 111.76) (xy 160.02 115.57)
+			(xy 132.08 118.11) (xy 132.08 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3206,7 +3194,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 140.97) (xy 151.13 140.97)
+			(xy 132.08 140.97) (xy 123.19 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3216,7 +3204,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 161.29) (xy 160.02 168.91)
+			(xy 132.08 161.29) (xy 132.08 168.91)
 		)
 		(stroke
 			(width 0)
@@ -3408,7 +3396,7 @@
 	)
 	(global_label "NMOS_B"
 		(shape input)
-		(at 99.06 120.65 0)
+		(at 99.06 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3418,7 +3406,7 @@
 		)
 		(uuid "607bcb94-3484-436d-8b2b-8a2d9807e2b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.6047 120.65 0)
+			(at 109.6047 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3432,7 +3420,7 @@
 	)
 	(global_label "NMOS_B"
 		(shape input)
-		(at 149.86 156.21 180)
+		(at 121.92 156.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3442,7 +3430,7 @@
 		)
 		(uuid "892bd963-caf8-4a7d-be17-41a484e6b8b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.3153 156.21 0)
+			(at 111.3753 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3456,7 +3444,7 @@
 	)
 	(global_label "NMOS_A"
 		(shape input)
-		(at 149.86 120.65 180)
+		(at 121.92 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3466,7 +3454,7 @@
 		)
 		(uuid "a3687fb7-f8ee-47ed-b6a4-122be17f91fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.4967 120.65 0)
+			(at 111.5567 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3480,7 +3468,7 @@
 	)
 	(global_label "MOTOR_B"
 		(shape output)
-		(at 151.13 140.97 180)
+		(at 123.19 140.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3490,7 +3478,7 @@
 		)
 		(uuid "a49b397e-c077-479c-bbc0-6df043c544cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.5572 140.97 0)
+			(at 111.6172 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4407,7 +4395,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 88.9 111.76 0)
+		(at 88.9 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4418,7 +4406,7 @@
 		(fields_autoplaced yes)
 		(uuid "5545201e-caee-4b57-822b-45e0ca210af6")
 		(property "Reference" "#PWR03"
-			(at 88.9 115.57 0)
+			(at 88.9 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4429,7 +4417,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 88.9 106.68 0)
+			(at 88.9 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4439,7 +4427,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 111.76 0)
+			(at 88.9 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4450,7 +4438,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 111.76 0)
+			(at 88.9 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4461,7 +4449,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 88.9 111.76 0)
+			(at 88.9 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4601,7 +4589,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
-		(at 160.02 168.91 0)
+		(at 132.08 168.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4612,7 +4600,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e4fbf92-6d39-42b7-b11d-9e70c4dd2e84")
 		(property "Reference" "#GND028"
-			(at 160.02 173.99 0)
+			(at 132.08 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4623,7 +4611,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 160.02 166.37 0)
+			(at 132.08 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4634,7 +4622,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 168.91 0)
+			(at 132.08 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4645,7 +4633,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 160.02 179.07 0)
+			(at 132.08 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4656,7 +4644,7 @@
 			)
 		)
 		(property "Description" "0V reference potential for simulation"
-			(at 160.02 176.53 0)
+			(at 132.08 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5054,7 +5042,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:AO3401A")
-		(at 157.48 156.21 0)
+		(at 129.54 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5064,7 +5052,7 @@
 		(dnp no)
 		(uuid "6f353bcb-cbff-44c6-8a27-be05c7ce86dd")
 		(property "Reference" "Q11"
-			(at 165.1 154.9399 0)
+			(at 137.16 154.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5075,7 +5063,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at 165.1 157.4799 0)
+			(at 137.16 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5086,7 +5074,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 162.56 158.115 0)
+			(at 134.62 158.115 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5099,7 +5087,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 162.56 160.02 0)
+			(at 134.62 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5111,7 +5099,7 @@
 			)
 		)
 		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-			(at 157.48 156.21 0)
+			(at 129.54 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5122,7 +5110,7 @@
 			)
 		)
 		(property "LCSC" "C15127"
-			(at 157.48 156.21 90)
+			(at 129.54 156.21 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5152,7 +5140,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 38.1 107.95 0)
+		(at 38.1 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5163,7 +5151,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f823a5f-00eb-4b62-8ca3-c84724ad0e13")
 		(property "Reference" "#PWR05"
-			(at 38.1 111.76 0)
+			(at 38.1 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5174,7 +5162,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 38.1 102.87 0)
+			(at 38.1 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5184,7 +5172,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 107.95 0)
+			(at 38.1 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5195,7 +5183,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 107.95 0)
+			(at 38.1 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5206,7 +5194,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 38.1 107.95 0)
+			(at 38.1 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5346,7 +5334,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:AO3401A")
-		(at 91.44 120.65 180)
+		(at 91.44 127 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5356,7 +5344,7 @@
 		(dnp no)
 		(uuid "7a240a03-e199-48c3-b85c-e7c4e72fcc17")
 		(property "Reference" "Q9"
-			(at 83.82 121.9201 0)
+			(at 83.82 128.2701 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5367,7 +5355,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at 83.82 119.3801 0)
+			(at 83.82 125.7301 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5378,7 +5366,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 86.36 118.745 0)
+			(at 86.36 125.095 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5391,7 +5379,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 86.36 116.84 0)
+			(at 86.36 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5403,7 +5391,7 @@
 			)
 		)
 		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-			(at 91.44 120.65 0)
+			(at 91.44 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5414,7 +5402,7 @@
 			)
 		)
 		(property "LCSC" "C15127"
-			(at 91.44 120.65 90)
+			(at 91.44 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5548,7 +5536,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 160.02 111.76 0)
+		(at 132.08 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5559,7 +5547,7 @@
 		(fields_autoplaced yes)
 		(uuid "7df24e31-78a3-48e9-940e-f4f0830d1c80")
 		(property "Reference" "#PWR04"
-			(at 160.02 115.57 0)
+			(at 132.08 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5570,7 +5558,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 160.02 106.68 0)
+			(at 132.08 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5580,7 +5568,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 111.76 0)
+			(at 132.08 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5591,7 +5579,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 111.76 0)
+			(at 132.08 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5602,7 +5590,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 160.02 111.76 0)
+			(at 132.08 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5978,7 +5966,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:AO3400A")
-		(at 157.48 120.65 0)
+		(at 129.54 127 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -5989,7 +5977,7 @@
 		(dnp no)
 		(uuid "9086ff1c-b72b-4a6c-b99d-b3ca4e8b56d2")
 		(property "Reference" "Q16"
-			(at 165.1 121.9201 0)
+			(at 137.16 128.2701 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6000,7 +5988,7 @@
 			)
 		)
 		(property "Value" "AO3400A"
-			(at 165.1 119.3801 0)
+			(at 137.16 125.7301 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6011,7 +5999,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 162.56 118.745 0)
+			(at 134.62 125.095 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6024,7 +6012,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 162.56 116.84 0)
+			(at 134.62 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6036,7 +6024,7 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 157.48 120.65 0)
+			(at 129.54 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6047,7 +6035,7 @@
 			)
 		)
 		(property "LCSC" "C20917"
-			(at 157.48 120.65 0)
+			(at 129.54 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7600,7 +7588,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
-		(at 38.1 166.37 0)
+		(at 38.1 153.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7611,7 +7599,7 @@
 		(fields_autoplaced yes)
 		(uuid "efe4f3ff-fed5-4214-bc11-edddfe582ccc")
 		(property "Reference" "#GND025"
-			(at 38.1 171.45 0)
+			(at 38.1 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7622,7 +7610,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 38.1 163.83 0)
+			(at 38.1 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7633,7 +7621,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 166.37 0)
+			(at 38.1 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7644,7 +7632,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 38.1 176.53 0)
+			(at 38.1 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7655,7 +7643,7 @@
 			)
 		)
 		(property "Description" "0V reference potential for simulation"
-			(at 38.1 173.99 0)
+			(at 38.1 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
